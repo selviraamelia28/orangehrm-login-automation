@@ -1,6 +1,6 @@
 describe('API Automation Testing - 12 Requests (Platzi Fake API)', () => {
   const baseUrl = 'https://api.escuelajs.co/api/v1';
-  let categoryId; // Variabel untuk menyimpan ID kategori yang dibuat dinamis
+  let categoryId; 
 
   // ==========================================
   // 1. CATEGORIES ENDPOINT (Sesuai Perintah Utama)
@@ -60,7 +60,6 @@ describe('API Automation Testing - 12 Requests (Platzi Fake API)', () => {
 
 
   it('TC05 - PUT Update Category', () => {
-    // Memastikan id ada, jika tidak ada pakai id default '1'
     const idToUpdate = categoryId || 1; 
     cy.request({
       method: 'PUT',
@@ -145,7 +144,6 @@ describe('API Automation Testing - 12 Requests (Platzi Fake API)', () => {
       url: `${baseUrl}/users/`,
       body: {
         name: 'John Doe'
-        // Sengaja mengosongkan email & password agar memicu error
       },
       failOnStatusCode: false
     }).then((response) => {
