@@ -1,0 +1,17 @@
+{
+  "validEmployee": {
+    "name": "Linda Anderson"
+  },
+  "invalidEmployee": {
+    "name": "Test Employee"
+  },
+  "partialEmployee": {
+    "name": "Linda"
+  },
+  "jobTitle": {
+    "title": "QA Engineer"
+  },
+  "location": {
+    "name": "Texas R&D"
+  }
+}

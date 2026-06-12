@@ -1,0 +1,23 @@
+{
+  "validCandidate": {
+    "name": "Linda Anderson"
+  },
+  "invalidCandidate": {
+    "name": "Test Candidate"
+  },
+  "vacancy": {
+    "name": "Senior QA Lead"
+  },
+  "hiringManager": {
+    "name": "Linda Anderson"
+  },
+  "status": {
+    "name": "Shortlisted"
+  },
+  "newCandidate": {
+    "firstName": "Meliana",
+    "lastName": "Ayu",
+    "email": "meliana@mail.com",
+    "contact": "08123456789"
+  }
+}
